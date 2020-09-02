@@ -4,9 +4,12 @@
 {% block title %}Update{% endblock title %}
 
 {% block content %}
-<form action="{% url 'destination-update' destination_obj.id %}" method="POST" enctype="multipart/form-data">
-  {% csrf_token %}
-  {{form.as_p}}
-  <input type="submit" value="Update">
-</form>
+<div class="jumbotron m-3 rounded jumbotron-update">
+  <form action="{% url 'destination-update' destination_obj.id %}" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form|crispy}}
+
+    <button type="submit" name="button" class="btn btn-md update_btn" data-toggle="tooltip" data-placement="bottom" title="Update">Update</button>
+  </form>
+</div>
 {% endblock content %}

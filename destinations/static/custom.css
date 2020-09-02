@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@700&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+body{
+  background-color: #ffffff;
+}
+.navbar{
+  height:130px;
+  background-color: #2F5975;
+}
+.navbar-brand{
+  font-size: 80px;
+  font-family: 'Sacramento', cursive;
+  color: #F5F5F5;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.navbar-brand:hover{
+  color: #EBEBEB;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 10vw;
+    object-fit: cover;
+}
+.card-img-bottom{
+  object-fit: cover;
+}
+.list-card{
+    min-height: 461px;
+    background-color: #FFFFFF;
+    padding: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+
+    transition: 0.5s ease;
+    cursor: pointer;
+    margin:30px;
+    background-color: #ffb116;
+}
+.detail-card{
+  margin:5px;
+  background-color: #ffb116;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.detail-card .card-title{
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+}
+.detail-card .card-text{
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+}
+.card-title{
+  font-size: 25px;
+  font-weight: 600;
+  font-family: 'Dosis', sans-serif;
+}
+.card-text{
+  text-align: left;
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+}
+.activity-text{
+  font-size: 16px;
+  font-weight: 500;
+
+}
+.list-card:hover {
+  transform: scale(1.08);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+}
+.btn{
+  background-color: #fff5d7;
+}
+.btn:hover{
+  background-color: #92B9BD;
+  color: #F5F5F5;
+
+}
+.navbar .destination_btn{
+  background-color: #ffffff
+}
+.navbar .destination_btn:hover{
+  background-color: #ffb116;
+  color: #2F5975;
+}
+.jumbotron{
+  background-color: #ffb116;
+}
+.jumbotron-detail{
+  background-color: #EFF2EF;
+}
+.jumbotron-detail .update_btn{
+  background-color: #2F5975;
+  color: #EFF2EF;
+}
+.jumbotron-detail .update_btn:hover{
+  background-color: #ffb116;
+  color: #2F5975;
+}
+.jumbotron-update .update_btn{
+  background-color: #2F5975;
+  color: #EFF2EF;
+}
+.jumbotron-update .update_btn:hover{
+  background-color: #E5E9EB;
+  color: #2F5975;
+}
